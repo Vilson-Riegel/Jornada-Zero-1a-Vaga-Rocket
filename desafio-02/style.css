@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spectral', serif;
+  color: #EBF1FB;
+}
+body {
+  height: 100vh;
+  background-color: #0B0C0E;
+  background-image: url("./img/bg.jpg");
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 72px;
+}
+.content h1 ,
+.content span {
+  font-family: 'Beth Ellen', cursive;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 120px;
+  margin-bottom: 4px;
+}
+
+.content span {
+  color: #5EEAD4;
+}
+.content p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.links a {
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+}
+.links a:last-child {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #0B0C0E;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #5EEAD4;
+  border-radius: 8px;
+  transition: .3s;
+}
+.links a:last-child:hover {
+  background-color: #49b3a3;
+}

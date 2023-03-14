@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Inter', sans-serif;
+}
+:root {
+  --amarelo: #FFC700;
+  --preto: #040101;
+  --branco: #FFFFFF;
+}
+body {
+  height: 100vh;
+  background: var(--preto);
+  color: var(--branco);
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.container {
+  height: 100vh;
+  padding-top: 160px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+.content {
+  display: grid;
+  gap: 4px;
+}
+
+.content h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+.content h3 span {
+  color: var(--amarelo);
+}
+.content h1 {
+  font-family: 'Emilys Candy', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  color: var(--amarelo);
+}
+.content p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.links a {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 12px 32px;
+  transition: .3s;
+}
+.links a:first-child:hover {
+  color: var(--branco);
+}
+.links a:last-child {
+  background-color: var(--amarelo);
+  color: var(--preto);
+  border-radius: 4px;
+  text-decoration: none;
+}
+.links a:last-child:hover {
+  background-color: #a07f08;
+}
